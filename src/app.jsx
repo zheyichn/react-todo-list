@@ -7,6 +7,9 @@ export function App() {
   // cannot call hooks conditionally
   const [newItem, setNewItem] = useState("");
   // can only update state variable using "setNewItem"
+  const [seminaut, setSeminaut] = useState(false);
+  setSeminaut(true);
+  console.log(seminaut);
 
   const [todos, setTodos] = useState(() => {
     const localValue = localStorage.getItem("ITEMS");
@@ -51,3 +54,6 @@ export function App() {
     </>
   );
 }
+
+//It saves developers time on writing basic CSS code themselves.
+// Developers can utilize this framework to apply predefined classes directly on markups

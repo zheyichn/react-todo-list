@@ -6,9 +6,10 @@
   body {
     background: #333;
     color: hsl(200, 100%, 90%);
-    max-width: 400px;
-    padding: 1rem;
+    /* max-width: 400px; */
+    padding: 3rem;
     margin: 0 auto;
+    flex-direction: column;
   }
   
   .new-item-form {
